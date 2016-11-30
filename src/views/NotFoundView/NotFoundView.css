@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 60px); /* 60px being the height of footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorImage {
+  width: 280px;
+  margin-bottom: 16px;
+}
+
+.errorMessage {
+  margin: 0 0 16px 0;
+  font-size: 28px;
+  color: #424242;
+}
