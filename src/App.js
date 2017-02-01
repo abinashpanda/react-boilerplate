@@ -1,4 +1,3 @@
-/* @flow */
 import React from 'react';
 import { Match, Miss } from 'react-router';
 import styles from './App.css';

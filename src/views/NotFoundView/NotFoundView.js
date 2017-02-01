@@ -1,5 +1,3 @@
-/* @flow */
-
 import React from 'react';
 import styles from './NotFoundView.css';
 import notFoundImage from '../../images/404.png';
