@@ -2,8 +2,7 @@
 
 import React from 'react';
 import styles from './NotFoundView.css';
-import notFoundImage from '../../../images/404.png';
-import TabBar from '../../../components/mobile/TabBar';
+import notFoundImage from '../../images/404.png';
 
 export default function NotFound({
   pathname,
@@ -20,7 +19,6 @@ export default function NotFound({
         />
         <h1 className={styles.errorMessage}>404 Page Not Found</h1>
       </div>
-      <TabBar pathname={pathname} />
     </div>
   );
 }
